@@ -1,0 +1,6 @@
+session_id,customer_id,scenario,transaction_amount,login_hour,device,gaze_deviation,face_visibility,blink_rate,motion_score,video_path,expected
+S001,C1000,valid_normal,2500,21,Samsung_S24,0.08,0.95,18,0.42,demo_sessions/valid_normal/user1.mp4,ALLOW
+S002,C1001,valid_side_glance,3000,20,iPhone15,0.4,0.82,17,0.39,demo_sessions/valid_side_glance/user2.mp4,ALLOW
+S003,C1002,valid_low_attention,1800,19,Pixel8,0.55,0.7,15,0.36,demo_sessions/valid_low_attention/user3.mp4,STEP_UP
+S004,C1003,valid_night_login,12000,2,OnePlus12,0.1,0.88,16,0.44,demo_sessions/valid_night_login/user4.mp4,STEP_UP
+S005,C1000,spoof_replay,90000,3,Unknown_Device,0.02,0.98,2,0.05,demo_sessions/spoof_replay/attack.mp4,BLOCK

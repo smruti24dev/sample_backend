@@ -1,0 +1,4 @@
+python app01_extract_features.py
+python app02_train_antispoof.py
+python app05_vector_store.py
+python app07_demo_pipeline.py

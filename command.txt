@@ -1,0 +1,12 @@
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements/requirements_core.txt
+pip install -r requirements/requirements_rag.txt
+pip install -r requirements/requirements_dl.txt
+
+python appV0.py
+deactivate
+
+
+python -m venv venv_img
+venv_img\Scripts\activate
